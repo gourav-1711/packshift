@@ -89,7 +89,7 @@
     }
 
     .videos .heading {
-        width: 50%;
+        width: 70%;
         margin: auto;
         color: black;
         text-transform: capitalize;
@@ -107,7 +107,7 @@
     }
 
     .service .heading {
-        width: 75%;
+        width: 79%;
         margin: auto;
         text-transform: uppercase;
         margin-top: 20px;
@@ -156,12 +156,7 @@
         padding: 15px 0px;
     }
 
-    .acheivement .record .record-2 .box-1 {
-        width: 43%;
-        font-size: 28px;
-        font-weight: 400;
-    }
-
+    
     .acheivement .heading {
         padding: 20px 0px;
         width: 75%;
@@ -351,19 +346,24 @@
         z-index: 900;
     }
     .mobile-btn ul li:nth-child(1){
-        padding: 20px 45px;
+        padding: 20px 59px;
         cursor: pointer;
         background-color: var(--gaurav);
         color: white;
     }
     .mobile-btn ul li:nth-child(2){
-        padding: 20px 45px;
+        padding: 20px 59px;
         cursor: pointer;
         color: white;
         background-color: var(--yellow);
     }
     .truck{
         display: none;
+    }
+    .acheivement .record .record-2 .box-1 {
+        width: 43%;
+        font-size: 28px;
+        font-weight: 400;
     }
 }
 
