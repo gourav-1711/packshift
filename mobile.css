@@ -332,29 +332,34 @@
         color: white;
     }
     .mobile-btn{
+        max-width: 100%;
         display: block;
         visibility: visible;
+        position: fixed;
+        top: 94%;
+        left: 0%;
     }
     .mobile-btn ul{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 100% 100%;
         margin-top: 0px;
-        justify-content: space-evenly;
-        position: fixed;
-        top: 95%;
-        left: 0%;
-        z-index: 900;
+        z-index: 99;
     }
     .mobile-btn ul li:nth-child(1){
-        padding: 20px 59px;
+        width: 100%;
         cursor: pointer;
         background-color: var(--gaurav);
         color: white;
+        padding: 20px 10px;
+        font-size: 20px;
+        text-align: center;
     }
     .mobile-btn ul li:nth-child(2){
-        padding: 20px 59px;
+        width: 100%;
+        padding: 20px 10px;
         cursor: pointer;
         color: white;
+        text-align: center;
         background-color: var(--yellow);
     }
     .truck{
